@@ -8,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class ListaModulosComponent implements OnInit {
 
   constructor() { }
+  
+  title = 'IdeaBagDone';
 
   ngOnInit() {
   }

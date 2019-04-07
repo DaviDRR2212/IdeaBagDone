@@ -3,13 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ListaModulosComponent } from './lista-modulos/lista-modulos.component';
+import { ListaModulosComponent } from './components/lista-modulos/lista-modulos.component';
 import { VisualModule } from './visual/visual.module';
+import { ErrorsComponent } from './components/errors/errors.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ListaModulosComponent
+    ListaModulosComponent,
+    ErrorsComponent
   ],
   imports: [
     BrowserModule,
